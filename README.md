@@ -1,7 +1,8 @@
 # Terminal TV
 
-Terminal TV is a video player that allows you to display a video (or camera) into your terminal using ansi color codes. A full screen console with a font size of 11 can do approximately 30-35 fps## Documentation
+Terminal TV is a video player that allows you to display a video (or camera) into your terminal using ansi color codes. A full screen console with a font size of 11 can do approximately 30-35 fps
 
+## Documentation
 ### Building
 
 Libs requiered: libopencv-dev
@@ -27,5 +28,5 @@ To remove all the information at the top by redirection the stderr to /dev/null:
     ./terminal_tv input.mp4 2>/dev/null
     
 ### Demo
-![Example](https://i.imgur.com/fieQaZI.png)
+![Example](https://i.imgur.com/fieQaZI.png)[Video demonstration (https://www.youtube.com/watch?v=YMIr55X8WbQ) ](https://www.youtube.com/watch?v=YMIr55X8WbQ)
 
