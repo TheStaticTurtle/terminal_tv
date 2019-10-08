@@ -9,8 +9,6 @@ struct winsize size;
 using namespace cv;
 using namespace std;
 
-const int FRAMRATE_CAP = 500000;
-
 Mat rotate_frame(Mat src,double angle) {
 
     // get rotation matrix for rotating the image around its center in pixel coordinates
