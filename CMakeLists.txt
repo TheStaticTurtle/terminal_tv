@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(terminal_tv)
 
+set(OpenCV_STATIC ON)
+
 SET("OpenCV_DIR" "/usr/share/OpenCV")
 find_package( OpenCV REQUIRED )
 

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/samuel/terminal_tv/src/main.cpp
+opencv2/opencv.hpp
+-
+iostream
+-
+sys/ioctl.h
+-
+stdio.h
+-
+unistd.h
+-
+time.h
+-
+
